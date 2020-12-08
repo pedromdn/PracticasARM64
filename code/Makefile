@@ -8,8 +8,8 @@
 all: holamundo
 
 holamundo:
-  as -o holamundo.o holamundo.s
-  ld holamundo.o -o holamundo
+	as -o holamundo.o holamundo.s
+	ld holamundo.o -o holamundo
 
 clean:
-  rm -vf holamundo *.o
+	rm -vf holamundo *.o
